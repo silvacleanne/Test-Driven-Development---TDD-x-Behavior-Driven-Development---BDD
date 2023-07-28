@@ -1,4 +1,4 @@
-**Test-Driven Development - TDD**
+                                                                    #Test-Driven Development - TDD
 
 O TDD é uma prática de desenvolvimento de software defendido pelo eXtremme Programming o famoso e já mencionado o XP, o TDD é uma sigla em ingês para **Test-Driven Development** que significa Desenvolvimento Orientado a Teste que foi descoberto em 2003 por Kent Beck o engenheiro de software americano e criador do XP.
 
@@ -6,7 +6,7 @@ Essa prática é uma das mais populares na área de desenvolvimento de software 
 
 Imagine uma situação onde temos outros programadores, refatorando e melhorando seu código depois que tudo passar nos testes já escritos, certificando-se de que tudo funcione, TDD é essencialmente baseado em testes de unidade, que nada mais é do que validar a parte mínima de seus testes. O sistema também é conhecido como uma unidade, geralmente uma classe ou um método, podemos dizer que o teste de unidade é uma ferramenta, TDD é uma técnica que significa que os testes de unidade podem ser escritos sem ter que escrever TDD e os testes de unidade são independentes de outros testes, então você pode verificar cada parte ou função individualmente.
 
-****O ciclo de desenvolvimento do TDD****
+##O ciclo de desenvolvimento do TDD
 
 O ciclo de desenvolvimento TDD (Test Driven Development) consiste em três etapas principais, também conhecidas como ciclo "red-green-refactor". Repita essas etapas sucessivamente para cada recurso ou unidade de código que está sendo desenvolvido. Vamos percorrer cada etapa (Redação XP Educação, 2022):
 
@@ -73,7 +73,7 @@ Esses são apenas alguns exemplos de ferramenta ou framework populares em suas r
 
 Para entender melhor na prática de como funciona o TDD sugiro ver o tutorial do Paulo Gonçalves onde mostra um exemplo da máquina de venda automática https://github.com/PauloGoncalvesBH/aprenda-tdd-na-pratica.
 
-**BDD (Behavior-Driven Development) na prática**
+#BDD (Behavior-Driven Development) na prática
 
 BDD (Behavior Driven Development) é uma metodologia de desenvolvimento de software que visa coordenar desenvolvimento, teste e atividades de negócios em um processo colaborativo. Essa prática foi projetada para melhorar a comunicação e o entendimento entre os membros da equipe de desenvolvimento e as partes interessadas do projeto.
 
@@ -88,7 +88,7 @@ Enfim, busca-se respostas para algumas questões, como:
 - como entender porque um teste falha;
 - onde iniciar.
 
-**Vantagem**
+##Vantagem
 
 A principal vantagem do BDD é que ele ajuda a remover a ambigüidade na comunicação entre os membros da equipe e garante que todos tenham um entendimento comum da funcionalidade do sistema. Como os testes são escritos em linguagem natural, os envolvidos no projeto, mesmo sem conhecimento técnico profundo, podem facilmente revisá-los e validá-los.
 
@@ -110,16 +110,16 @@ Exemplo: **dada** (given) uma nova promoção, **quando** (then) ela for lan
 
 Paralelamente, uma série de frameworks é utilizada, como: Jbehave, EasyB e Spock.
 
-**Relação entre BDD e TDD:**
+##Relação entre BDD e TDD:
 O BDD utiliza a prática do TDD para a implementação dos testes automatizados baseados nos cenários descritos em linguagem natural. Enquanto o TDD se concentra nos testes unitários e na verificação do comportamento interno do código, o BDD usa os testes como uma forma de especificar o comportamento externo do software, de acordo com a perspectiva do usuário.
 
 Portanto, o BDD é uma abordagem mais abrangente que incorpora o TDD em um contexto mais amplo de comunicação e colaboração entre a equipe de desenvolvimento e os stakeholders do projeto. O BDD estende o conceito de TDD, colocando ênfase no comportamento do software e fornecendo uma maneira estruturada e clara de expressar requisitos e especificações de forma colaborativa e orientada ao negócio.
 
-**Conclusão**
+##Conclusão
 
 Ambas as práticas encorajam uma abordagem iterativa e colaborativa no desenvolvimento de software, proporcionando maior clareza sobre os requisitos e comportamentos esperados do sistema. Ao adotar essas práticas, as equipes podem obter códigos mais confiáveis, fáceis de manter e com maior aderência aos objetivos do projeto, resultando em um produto final de maior qualidade e satisfação do cliente. O TDD e o BDD são abordagens valiosas que podem ser aplicadas em diferentes contextos de desenvolvimento, proporcionando benefícios significativos em termos de produtividade, eficiência e confiabilidade do software.
 
-**Referência:**
+##Referência:
 
 **Redação XP Educação, 2022:** [https://blog.xpeducacao.com.br/tdd-test-driven-development/#:~:text=Qual o significado de TDD,a uma de forma isolada](https://blog.xpeducacao.com.br/tdd-test-driven-development/#:~:text=Qual%20o%20significado%20de%20TDD,a%20uma%20de%20forma%20isolada).
 
