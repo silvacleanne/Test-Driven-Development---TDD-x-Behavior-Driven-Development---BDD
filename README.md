@@ -1,4 +1,4 @@
-                                                                    # Test-Driven Development - TDD
+# Test-Driven Development - TDD
 
 O TDD é uma prática de desenvolvimento de software defendido pelo eXtremme Programming o famoso e já mencionado o XP, o TDD é uma sigla em ingês para **Test-Driven Development** que significa Desenvolvimento Orientado a Teste que foi descoberto em 2003 por Kent Beck o engenheiro de software americano e criador do XP.
 
@@ -8,7 +8,7 @@ Imagine uma situação onde temos outros programadores, refatorando e melhorando
 
 ## O ciclo de desenvolvimento do TDD
 
-##
+#
 
 O ciclo de desenvolvimento TDD (Test Driven Development) consiste em três etapas principais, também conhecidas como ciclo "red-green-refactor". Repita essas etapas sucessivamente para cada recurso ou unidade de código que está sendo desenvolvido. Vamos percorrer cada etapa (Redação XP Educação, 2022):
 
@@ -26,13 +26,12 @@ Nesse momento é importante o profissional entender bem quais são as necessidad
 
 Por fim, a **última etapa** do ciclo é a de **refatoração do código**. Aqui, é o momento de [analisar o código](https://www.igti.com.br/desenvolvimento-web) que foi criado apenas para ser aprovado no ciclo Green e deixá-lo o mais simples possível.
 
-Dessa forma, é na fase de refatoração do código que ele passa por uma limpeza onde são excluídas as duplicidades, extraídas as classes, interfaces e métodos do sistema.
-
-Após concluir essas três etapas para uma funcionalidade específica, o desenvolvedor pode passar para a próxima funcionalidade e repetir o ciclo. O TDD incentiva a criação de testes antes do código de implementação, o que ajuda a garantir que o código esteja correto, seja testável e siga as especificações desejadas. Além disso, o processo de refatoração contínua ajuda a manter um código saudável ao longo do tempo.
-
+Dessa forma, é na fase de refatoração do código que ele passa por uma limpeza onde são excluídas as duplicidades, extraídas as classes, interfaces e métodos do sistema. Após concluir essas três etapas para uma funcionalidade específica, o desenvolvedor pode passar para a próxima funcionalidade e repetir o ciclo. O TDD incentiva a criação de testes antes do código de implementação, o que ajuda a garantir que o código esteja correto, seja testável e siga as especificações desejadas. Além disso, o processo de refatoração contínua ajuda a manter um código saudável ao longo do tempo.
 Uma forma de lembrar esse ciclo é: primeiro faça , depois faça certo e depois faça melhor.
 
 Além das etapas do ciclo, os testes realizados a partir da técnica TDD segue o **Modelo FIRST** (Redação XP Educação, 2022).:
+
+#
 
 - **F (Fast/Rápido):** as testagens são ágeis, já que uma unidade é verificada por vez;
 - **I (Isolated/Isolado):** cada teste é feito de forma individual, sem nenhuma integração com o sistema;
@@ -40,11 +39,11 @@ Além das etapas do ciclo, os testes realizados a partir da técnica TDD segue o
 - **S (Self-verifying/Auto verificação):** checagem do teste, se foi aprovado ou se novas falhas foram identificadas;
 - **T (Timely/Oportuno):** o teste deve ser oportuno e trazer novas informações para o desenvolvimento do software.
 
-Adotar o TDD vai fazer com que o programador em um curto prazo não vai mais perder tempo depurando e tentando encontrar as falhas e não terá códigos desnecessários pois o código será pensado simplesmente para passar no teste e no fim teremos um código com mais confiabilidade e mais qualidade.
-
-Por essas razões para ter uma noção de que essa perda de tempo é realmente mito sem falar no momento que o código for alterado o ganho de tempo será ainda maior já que o teste para aquela funcionalidade já existe então se ganha no curto, médio e no longo prazo. 
+Adotar o TDD vai fazer com que o programador em um curto prazo não vai mais perder tempo depurando e tentando encontrar as falhas e não terá códigos desnecessários pois o código será pensado simplesmente para passar no teste e no fim teremos um código com mais confiabilidade e mais qualidade. Por essas razões para ter uma noção de que essa perda de tempo é realmente mito sem falar no momento que o código for alterado o ganho de tempo será ainda maior já que o teste para aquela funcionalidade já existe então se ganha no curto, médio e no longo prazo. 
 
 Existem várias ferramentas e framework para se utilizar o TDD na sua linguagem favorita assim é possível ganhar mais tempo e qualidade no seu software associando as práticas do TDD.  Abaixo, vou listar alguns frameworks populares e suas respectivas linguagens:
+
+#
 
 1. **Python:**
     - **unittest**: O módulo de teste padrão da biblioteca Python permite criar testes unitários.
@@ -77,10 +76,9 @@ Para entender melhor na prática de como funciona o TDD sugiro ver o tutorial do
 
 #BDD (Behavior-Driven Development) na prática
 
-BDD (Behavior Driven Development) é uma metodologia de desenvolvimento de software que visa coordenar desenvolvimento, teste e atividades de negócios em um processo colaborativo. Essa prática foi projetada para melhorar a comunicação e o entendimento entre os membros da equipe de desenvolvimento e as partes interessadas do projeto.
+#
 
-O BDD se baseia nos princípios do TDD (Test Driven Development), mas se concentra mais na linguagem e no comportamento do software da perspectiva do usuário final. Ele incentiva a criação de testes automatizados com base em cenários específicos de comportamento esperado do sistema, descritos em linguagem natural que tanto desenvolvedores quanto não desenvolvedores podem entender.
-
+BDD (Behavior Driven Development) é uma metodologia de desenvolvimento de software que visa coordenar desenvolvimento, teste e atividades de negócios em um processo colaborativo. Essa prática foi projetada para melhorar a comunicação e o entendimento entre os membros da equipe de desenvolvimento e as partes interessadas do projeto. O BDD se baseia nos princípios do TDD (Test Driven Development), mas se concentra mais na linguagem e no comportamento do software da perspectiva do usuário final. Ele incentiva a criação de testes automatizados com base em cenários específicos de comportamento esperado do sistema, descritos em linguagem natural que tanto desenvolvedores quanto não desenvolvedores podem entender.
 Para Gizele, não é apenas a equipe de desenvolvedores que escreve os cenários de testes. Sendo assim, **três agentes interagem para criar o produto**: o Product Owner (PO), o Quality Analyst (QA) e o developer. É o que Georgie Dinwiddie chamou de “regra dos três amigos”. Assim, se obtém melhores resultados na descrição dos testes.
 
 Enfim, busca-se respostas para algumas questões, como:
@@ -91,6 +89,8 @@ Enfim, busca-se respostas para algumas questões, como:
 - onde iniciar.
 
 ## Vantagem
+
+#
 
 A principal vantagem do BDD é que ele ajuda a remover a ambigüidade na comunicação entre os membros da equipe e garante que todos tenham um entendimento comum da funcionalidade do sistema. Como os testes são escritos em linguagem natural, os envolvidos no projeto, mesmo sem conhecimento técnico profundo, podem facilmente revisá-los e validá-los.
 
@@ -114,15 +114,19 @@ Paralelamente, uma série de frameworks é utilizada, como: Jbehave, EasyB e Spo
 
 ## Relação entre BDD e TDD:
 
-O BDD utiliza a prática do TDD para a implementação dos testes automatizados baseados nos cenários descritos em linguagem natural. Enquanto o TDD se concentra nos testes unitários e na verificação do comportamento interno do código, o BDD usa os testes como uma forma de especificar o comportamento externo do software, de acordo com a perspectiva do usuário.
+#
 
-Portanto, o BDD é uma abordagem mais abrangente que incorpora o TDD em um contexto mais amplo de comunicação e colaboração entre a equipe de desenvolvimento e os stakeholders do projeto. O BDD estende o conceito de TDD, colocando ênfase no comportamento do software e fornecendo uma maneira estruturada e clara de expressar requisitos e especificações de forma colaborativa e orientada ao negócio.
+O BDD utiliza a prática do TDD para a implementação dos testes automatizados baseados nos cenários descritos em linguagem natural. Enquanto o TDD se concentra nos testes unitários e na verificação do comportamento interno do código, o BDD usa os testes como uma forma de especificar o comportamento externo do software, de acordo com a perspectiva do usuário. Portanto, o BDD é uma abordagem mais abrangente que incorpora o TDD em um contexto mais amplo de comunicação e colaboração entre a equipe de desenvolvimento e os stakeholders do projeto. O BDD estende o conceito de TDD, colocando ênfase no comportamento do software e fornecendo uma maneira estruturada e clara de expressar requisitos e especificações de forma colaborativa e orientada ao negócio.
 
 ## Conclusão
+
+#
 
 Ambas as práticas encorajam uma abordagem iterativa e colaborativa no desenvolvimento de software, proporcionando maior clareza sobre os requisitos e comportamentos esperados do sistema. Ao adotar essas práticas, as equipes podem obter códigos mais confiáveis, fáceis de manter e com maior aderência aos objetivos do projeto, resultando em um produto final de maior qualidade e satisfação do cliente. O TDD e o BDD são abordagens valiosas que podem ser aplicadas em diferentes contextos de desenvolvimento, proporcionando benefícios significativos em termos de produtividade, eficiência e confiabilidade do software.
 
 ## Referência:
+
+#
 
 **Redação XP Educação, 2022:** [https://blog.xpeducacao.com.br/tdd-test-driven-development/#:~:text=Qual o significado de TDD,a uma de forma isolada](https://blog.xpeducacao.com.br/tdd-test-driven-development/#:~:text=Qual%20o%20significado%20de%20TDD,a%20uma%20de%20forma%20isolada).
 
