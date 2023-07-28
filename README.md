@@ -22,7 +22,7 @@ Nesse momento é importante o profissional entender bem quais são as necessidad
 
 ### Refactor
 
-Por fim, a **última etapa** do ciclo é a de **refatoração do código**. Aqui, é o momento de [analisar o código](https://www.igti.com.br/desenvolvimento-web) que foi criado apenas para ser aprovado no ciclo Green e deixá-lo o mais simples possível.
+Por fim, a **última etapa** do ciclo é a de **refatoração do código**. Aqui, é o momento de analisar o código que foi criado apenas para ser aprovado no ciclo Green e deixá-lo o mais simples possível.
 
 Dessa forma, é na fase de refatoração do código que ele passa por uma limpeza onde são excluídas as duplicidades, extraídas as classes, interfaces e métodos do sistema. Após concluir essas três etapas para uma funcionalidade específica, o desenvolvedor pode passar para a próxima funcionalidade e repetir o ciclo. O TDD incentiva a criação de testes antes do código de implementação, o que ajuda a garantir que o código esteja correto, seja testável e siga as especificações desejadas. Além disso, o processo de refatoração contínua ajuda a manter um código saudável ao longo do tempo.
 Uma forma de lembrar esse ciclo é: primeiro faça , depois faça certo e depois faça melhor.
